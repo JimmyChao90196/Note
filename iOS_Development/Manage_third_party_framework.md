@@ -27,7 +27,9 @@ $ sudo gem install cocoapods
 Cocoa pod handle most of the heavy lifting for us so we can focusing on how to manage the libraries that comes with those handy framework.
 
 <br>
+
 <b>Method 1: Using extension</b><br>
+
 By using extension, we are able to encapsulate and limit the scope of the framework.<br>
 Also notice that we can also <span style="color: #c89349">wrap up functionalities</span> form those frameworks to better suit our needs.
 
@@ -72,6 +74,7 @@ extension UITableView {
 
 <br>
 <b>Method 2: Using custom class with singleton</b><br>
+
 Or we can create a custom class for initializing the the functionality of the framework.
 This way we don't have to initialize the whole things every time we try to use it.
 I think it's an awesome and neat way to avoid creating repeatitive code.<br>
