@@ -6,7 +6,7 @@
 <details>
 <summary style="font-size: 1.5em; color: #c1ac40"><B>Embedded Segue</B></summary>
 The picture below shows that there are three container view stacked on top of each other.<br>
-And if we open the connection inspector, we can see there are actually three segues connected to the view controller.<br><br>
+And if we open the connection inspector, we can see there are actually connections between <span style="color: #c89349">container view and ProductListViewController.</span> <br><br>
 
 
 ![Alt text](image.png)<br><br>
