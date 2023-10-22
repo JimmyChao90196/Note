@@ -24,9 +24,7 @@ $ sudo gem install cocoapods
 ---
 <details>
 <summary style="font-size: 1.5em; color: #c89349"><B>Manage frameworks inside the project</B></summary>
-Cocoa pod handle most of the heavy lifting for us so we can focusing on how to manage the libraries that comes with those handy framework.
-
-</br>
+Cocoa pod handle most of the heavy lifting for us so we can focusing on how to manage the libraries that comes with those handy framework.<br><br>
 
 <b>Method 1: Using extension</b><br>
 
