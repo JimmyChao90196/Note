@@ -19,7 +19,6 @@ He'll tell you how to install cocoa pod through terminal.
 $ sudo gem install cocoapods
 ```
 </details>
-<br>
 
 ---
 <details>
