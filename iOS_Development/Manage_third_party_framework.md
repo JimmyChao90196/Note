@@ -71,7 +71,7 @@ extension UITableView {
 ---
 
 <br>
-<b>Method 2: Using custom class with singleton</b><br>
+<b>Method 2: Using custom class with singleton</b><br><br>
 
 Or we can create a custom class for initializing the the functionality of the framework.
 This way we don't have to initialize the whole things every time we try to use it.
