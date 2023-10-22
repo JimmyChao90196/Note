@@ -20,6 +20,7 @@ $ sudo gem install cocoapods
 ```
 </details>
 <br>
+
 ---
 <details>
 <summary style="font-size: 1.5em; color: #c89349"><B>Manage frameworks inside the project</B></summary>
