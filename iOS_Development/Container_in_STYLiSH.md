@@ -9,11 +9,11 @@ The picture below shows that there are three container view stacked on top of ea
 And if we open the connection inspector, we can see there are actually connections between <span style="color: #c89349">container view and ProductListViewController.</span> <br><br>
 
 
-![Alt text](image.png)<br><br>
+![Alt text](Resource/image.png)<br><br>
 <br>
 This indicate that when the container is initialized along with the ProductViewController, the segue will be triggered.<br>
 
-![Alt text](<Screenshot 2023-10-22 at 2.50.25 PM.png>)<br><br>
+![Alt text](<Resource/Screenshot 2023-10-22 at 2.50.25 PM.png>)<br><br>
 
 Now we have three embeded segue, we can now give each of them corresponding data, by using the prepare for segue method. Each of them will be performed when containerView loaded. And we can take advantage of that and load all the data at once.
 
