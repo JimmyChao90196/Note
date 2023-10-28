@@ -1,4 +1,4 @@
-# KOV and Notification center
+# KVO and Notification center
 
 
 <details>
@@ -7,7 +7,7 @@ To properly set up KOV, we need to set up the following things - <br>
 In the class that we want to observe it's property<span style="color: #c89349">( In this case StorageManager )</span>:<br><br>
 
 - Decide a property to be observed<br>
-- This property should be the subclass of NSObject<br>
+- The class that owns this property should be the subclass of NSObject<br>
 - This property should be marked as @objc dynamic<br>
 <br>
 
