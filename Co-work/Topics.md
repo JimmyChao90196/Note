@@ -22,6 +22,7 @@
 --- 
 <details>
 <summary style="font-size: 1.5em; color: #c1ac40"><B> Stock</B></summary>
+
 #### (2 days)
 - [x] Stock number fetched from backend
 - [x] Table view to show branches info
