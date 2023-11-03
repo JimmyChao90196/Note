@@ -36,8 +36,13 @@ Alright，還記得我們談過的 UIScrollView 吧，就是那個讓你窺視�
 #### When do we use it
 Okay folks, let's talk about 'Content Offset'. Content offset 其實就是content view 與原點的位移差。
 
+<br>
 假設你正在閱讀一篇長文章，你已經讀到一半了。當你關閉應用程式並稍後回來時，你不會想從頂部開始，對吧？你會希望從你上次離開的地方繼續。這就是 content offset 派上用場的地方。它會記住你上次的滾動位置。
+
+<br>
 還有另一個酷炫的用例：視差滾動！你有沒有見過那些花俏的應用程式，在你滾動時，背景比前景移動得慢？那都是通過操縱 content offset 完成的。
+
+<br>
 所以總而言之，Content Offset 是關於控制和記住你在 scroll view 中的位置(個人比較習慣用位移差來解釋)。無論是用於閱讀應用程式、照片庫，還是一些花俏的動畫，玩弄 content offset 可以帶來更佳的使用者體驗。
 </details>
 
@@ -73,7 +78,11 @@ Frame Layout Guide 幫助我們定義 scroll view 的可見區域。It's like a 
 The name is pretty self explainatory. When the view is scrolling, this method will be called.
 
 例如，假設你正在創建一個閱讀應用程式，並且你希望在用戶向下滾動以閱讀更多內容時隱藏導航欄－－scrollViewDidScroll 就是你的人選。一旦用戶開始滾動，這個方法就會被觸發，然後你可以添加你的代碼來隱藏導航欄。
+
+<br>
 The prespective trick we just talked about，其中背景以比內容不同的速度移動。每次 scrollViewDidScroll 被調用時，你都可以調整 content size to achieve this effect.
+
+<br>
 Also, if we want to limit the scrolling direction, we can use this method to achieve that as well.
 Long story short，scrollViewDidScroll 為你提供了關於滾動事件的實時更新。
 
@@ -110,7 +119,7 @@ The name is pretty self explainatory. When the view is zooming, this method will
 - Demonstrate content inset.
 - Demonstrate content size.
 
-- Scroll View will be able to dictate whether you wanted to scroll or interacte the content within scroll view.
+
 
 </details>
 
