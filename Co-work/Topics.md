@@ -1,7 +1,7 @@
 <details>
-<summary style="font-size: 1.5em; color: #c1ac40"><B> Search history</B></summary>
+<summary style="font-size: 1.5em; color: #c1ac40"><B> Search history / Browse history</B></summary>
 
-#### ( 2 days )
+#### Basic( 2 days )
 - [x] TableView
 - [x] Animation
 - [x] Constraint
@@ -9,15 +9,12 @@
 
 ---
 
-<details>
-<summary style="font-size: 1.5em; color: #c1ac40"><B> Browse history</B></summary>
-
-#### ( 1.5 day)
+#### Advance( 1.5 day)
 - [x] TabBar item
 - [x] Collection View or Table View
 - [x] Sent data to backend
 - [x] Get data from backend
-</details>
+
 
 --- 
 <details>
@@ -54,4 +51,5 @@
 - [x] Send message to backend
 - [x] Get message from backend
 - [x] Use stylish IQ keyboard, to push table view.
+- [x] Use Admin one on one chattting, without history.
 </details>
